@@ -1,0 +1,45 @@
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    position: relative;
+    top: -10px;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    color: cyan;
+}
+
+.heading {
+    margin-top: 20px;
+    position: relative;
+    right: -660px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   
+}
+.oneone {
+    margin-left: 20px;
+}
+.onethree {
+    margin-right: 200px;
+}
+
+#donate-blood {
+    width: 500px;
+    height: 350px;
+    position: relative;
+    left: 50px;
+    
+}
+
+.form-control {
+    width: 400px;
+}

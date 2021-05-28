@@ -1,0 +1,57 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    position: relative;
+    top: -10px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: cyan;
+}
+
+#signup ,
+#login {
+    position: relative;
+    right: -500px;
+    border: white solid 1px;
+    font-weight: bold;
+    color: white;
+}
+
+#signup:hover,
+#login:hover{
+     color: aqua;
+}
+
+.main-text {
+    font-weight: bold;
+    font-size: 25pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: -250px;
+    
+}
+
+.author-name {
+    position: relative;
+    top: 30px;
+    padding-left: 230px;
+}
+
+.header {
+    margin-top: 150px;
+    color: red;
+    text-align: center;
+}

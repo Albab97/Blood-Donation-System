@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/js/all.js"></script>
+
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="topnav">
+        <a href="http://localhost:3232/">Home</a>
+        <a href="http://localhost:3232/add_donors.html">Donate</a>
+        <a href="http://localhost:3232/donors_list.html">Find Donor</a>
+        <a href="http://localhost:3232/events.html">Events</a>
+        <a href="http://localhost:3232/contact.html">Contact Us</a>
+    </div>
+    <h5>Contact Us Form</h5>
+    <div class="row mt-5 ml-5">
+        <div class="col">
+            <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <label for="fName" class ="sub-heading" >Name :</label>
+                    <input type="text" class="form-control" id="fName">
+                </div>
+                <div class="form-group">
+                    <label for="contactNo" class ="sub-heading">Contact No. :</label>
+                    <input type="number" class="form-control" id="contactNo">
+                </div>
+                <div class="form-group">
+                    <label for="email" class ="sub-heading">Email id :</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <input class="btn" type="submit" value="SEND">
+                <input class="btn" type="reset" value="RESET">
+            </form>
+        </div>
+        <div class="col">
+            <h5 id="info">Contact Info</h5>
+            <div id="contact">
+                <h6 style="color: orangered;">PHONE &ensp;<i class="fa fa-phone" style="font-size:16px;color:orangered"></i></h6>
+                <p style="color: orangered;">011-22094484, 011-22092470</p>
+            </div>
+            <div id="contact">
+                <h6 style="color: orangered;">E-MAIL &ensp; <i class="fa fa-envelope" style="font-size:16px;color:orangered"></i></h6>
+                <p style="color: orangered;">info@jainhospital.com</p>
+            </div>
+            <div id="contact">
+                <h6 style="color: orangered;">WEBSITE &ensp;<i class='fas fa-map-marker-alt' style='font-size:16px;color:orangered'></i></h6>
+                <p style="color: orangered;">abc.com</p>
+            </div>
+            <div id="contact">
+                <h6 style="color: orangered;">ADDRESS &ensp;<i class='fas fa-map-marker-alt' style='font-size:16px;color:orangered'></i></h6>
+                <p style="color: orangered;">177-178, Jagriti Enclave, Vikas Marg Extn., Delhi-92</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

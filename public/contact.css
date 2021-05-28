@@ -1,0 +1,43 @@
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    position: relative;
+    top: -10px;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    color: cyan;
+}
+
+h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    font-size: 25pt;
+    padding-left: 200px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+}
+
+#contact {
+    padding-left: 100px;
+    position: relative;
+    top:-80px;
+    margin: 30px;
+}
+
+#info {
+    position: relative;
+    top:-110px;
+}
